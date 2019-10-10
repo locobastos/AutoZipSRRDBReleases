@@ -6,6 +6,12 @@ This script is enough for my personnal use, but need to be enhanced to be genera
 - asking srrdb team the download limit per day, to avoid useless HTTP request
 
 ## Prerequisite
+You'll need to disable PowerShell protection:
+
+    PS> Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
+
+Please read this article before: https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-6
+
 This script uses these softwares:
 - cfv : https://sourceforge.net/projects/cfv/files/cfv/
 - srr : https://bitbucket.org/Gfy/pyrescene/downloads/
