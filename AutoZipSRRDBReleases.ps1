@@ -29,7 +29,7 @@ foreach ($current_folder in $extracted_dir){
                 }
             429 {
                     Write-Host "Too many requests, slepping for 1 hour..." -ForegroundColor Red
-                    Start-Sleep -Seconds 3600
+                    Start-Sleep -Seconds 90000
                 }
         }
         continue
